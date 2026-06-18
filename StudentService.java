@@ -65,7 +65,7 @@ public class StudentService {
         if (students.isEmpty()) {
             System.out.println("No students available.");
         } else {
-            // FIX: use lambda instead of ambiguous method reference
+            
             students.forEach(s -> System.out.println(s));
         }
     }
